@@ -1,0 +1,64 @@
+* body {
+  display: flex;
+  background-color: rgb(21, 32, 43);
+  place-content: center;
+  height: 100vh;
+}
+
+.contenedor-lista {
+  color: rgba(250, 235, 215, 0.582);
+  border: 10px solid rgba(4, 170, 109, 0.581);
+  border-radius: 25px;
+  margin: 5px;
+  padding: 16px;
+  display: flex;
+}
+
+.input-tareas {
+  margin: 10px 15px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  border: none;
+  background-color: rgb(4, 170, 109);
+  color: rgb(21, 32, 109);
+  font-size: 19px;
+}
+
+.boton-agregar-tarea {
+  padding: 5px 15px;
+  text-align: center;
+  text-justify: auto;
+  background-color: rgb(4, 170, 109);
+  border: none;
+  border-radius: 15px;
+  font-size: 19px;
+}
+
+.ul-lista {
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.lista-li {
+  padding: 5px;
+  color: rgba(8, 225, 145, 0.768);
+  background-color: rgba(135, 207, 235, 0.463);
+  font-size: 18px;
+  margin: 5px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  /* text-align: var(100vh); */
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.borrador {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.borrador:hover {
+  color: red;
+  scale: 1.5;
+  transition: 0.6s;
+}
